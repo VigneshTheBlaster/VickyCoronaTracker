@@ -1,0 +1,114 @@
+.mis{
+        width: 1282px;
+        height: 620px;
+        background-color: rgba(5, 0, 0, 0.2);
+        position: absolute;
+        margin-left:-10px ;
+        top: -10px;
+        z-index: 2;
+}
+
+.ngk{
+        top: 30px;
+        left: 550px;
+        width: 120px;
+        height: 40px;
+        position: relative;
+        z-index: 4;
+        outline: none;
+}
+
+.ngk:hover{
+        background-color: tomato;
+}
+
+
+.petta1{
+        top: 375px;
+        left: 35px;
+        width: 160px;
+        height: 40px;
+        position: relative;
+        z-index: 3;
+}
+
+
+.vicky{
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        color: seashell;
+        margin: 0px auto;
+        top: 0px;
+        position: relative;
+        z-index: 3;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        //background: linear-gradient(135deg, rgba(186, 39, 55, 0.3) 0%, rgba(186, 39, 55, 0.6) 51%, rgba(239, 197, 202, 0.8) 51%, rgba(239, 197, 202, 0.9) 100%);
+        //background-color: rgba(150, 199, 243,0.5);
+}
+
+.vicky1{
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        float: left;
+        color: seashell;
+        margin: 0px auto;
+        top: 10px;
+        left: 50px;
+        position: relative;
+        z-index: 3;
+}
+
+.MIS{
+        float: right;
+        position: relative;
+        left:-300px;
+}
+
+img{
+        width: 1200px;
+        margin-left: 30px;
+        position: relative;
+        z-index: 3;
+        
+}
+
+input{
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: 300;
+        color: black;
+}
+
+.tsk{
+        font-size: xx-large;
+}
+
+.tsk1{
+        font-size: xx-large;
+}
+      
+.masss{
+        width: 100%;
+}
+
+.masss1{
+        width: 55%;
+        font-family: cursive;
+}
+
+.mass1{
+        width: 75%;
+        font-family: cursive;
+}
+
+.ngk1{
+        position: fixed;
+        top: 190px;
+        left: 850px;
+}
+
+.maara{
+        display: none;
+}

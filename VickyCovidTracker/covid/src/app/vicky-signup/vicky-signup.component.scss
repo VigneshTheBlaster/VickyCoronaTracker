@@ -1,0 +1,132 @@
+mat-label{
+        color: black;
+        font-weight: 500;
+}
+
+.mis{
+        width: 1282px;
+        height: 620px;
+        background-color: rgba(5, 0, 0, 0.2);
+        position: absolute;
+        margin-left:-10px ;
+        top: -10px;
+        z-index: 2;
+}
+
+.ngk{
+        top: 70px;
+        left: 480px;
+        width: 120px;
+        height: 40px;
+        position: relative;
+        z-index: 3;
+}
+
+.petta{
+        top: 70px;
+        left: 540px;
+        width: 120px;
+        height: 40px;
+        position: relative;
+        z-index: 3; 
+}
+
+.petta1{
+        top: 540px;
+        left: 500px;
+        width: 160px;
+        height: 40px;
+        position: fixed;
+        z-index: 3;
+        outline: none;
+}
+
+
+.vicky{
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        color: seashell;
+        margin: 0px auto;
+        top: 40px;
+        position: relative;
+        z-index: 3;
+}
+
+.vicky1{
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        float: left;
+        color: seashell;
+        margin: 0px auto;
+        top: 200px;
+        left: 50px;
+        position: fixed;
+        z-index: 3;
+}
+
+.MIS{
+        float: right;
+        position: fixed;
+        left:436px;
+}
+
+img{
+        width: 1200px;
+        margin-left: 30px;
+        position: relative;
+        z-index: 3;
+        
+}
+
+input{
+        font-size: 40px;
+        font-family: monospace;
+        font-weight: 300;
+        color: black;
+}
+
+.tsk{
+        font-size: xx-large;
+}
+
+.tsk1{
+        font-size: xx-large;
+}
+      
+.masss{
+        width: 100%;
+}
+
+.masss1{
+        width: 55%;
+        font-family: cursive;
+}
+
+.masss2{
+        width: 55%;
+        font-family: cursive;
+        position: relative;
+        top: -344px;
+        left:400px;
+}
+
+.masss3{
+        width: 55%;
+        font-family: cursive;
+        position: relative;
+        top: -640px;
+        left:800px;
+}
+
+.mass1{
+        width: 75%;
+        font-family: cursive;
+}
+
+.ngk1{
+        position: fixed;
+        top: 246px;
+        left: 850px;
+}

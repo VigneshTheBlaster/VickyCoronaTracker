@@ -1,0 +1,66 @@
+
+.vicky{
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+        color: black;
+        margin: 0px auto;
+        top: 0px;
+        position: relative;
+        z-index: 3;
+}
+
+.example-card {
+        max-width: 380px;
+        //left: 400px;
+        float: left;
+        margin-left: 30px;
+      }
+      
+.example-header-image {
+        background-image: url('vickyy.jpg');
+        background-size: cover;
+        top: -4px;
+      }
+
+.exampl-header-image {
+        background-image: url('dog.jpg');
+        background-size: cover;
+      }
+      
+.examp-header-image {
+        background-image: url('sensor.png');
+        background-size: cover;
+        background-color: seagreen;
+        top: -4px;
+      }
+
+input{
+        font-size: 25px;
+        font-weight: 900;
+}
+
+.tsk{
+        font-size: xx-large;
+        color: darkblue;
+        font-weight: 900;
+}
+
+.ngk{
+        top: 40px;
+        left: 550px;
+        width: 120px;
+        height: 40px;
+        position: relative;
+        z-index: 3;
+        outline: none;
+}
+
+.ngk:hover{
+        background-color: tomato;
+}
+
+
+.masss{
+        width: 70%;
+}

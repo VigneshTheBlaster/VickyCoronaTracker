@@ -1,0 +1,68 @@
+<p>
+  <mat-toolbar color="primary" >
+    <mat-toolbar-row>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" (click)='open=!open'
+       style="outline:none;" aria-label="Example icon-button with menu icon">
+        <mat-icon style="margin-left: -10px;cursor: pointer;
+        outline:none;">menu</mat-icon>
+        </button>
+      <span style="margin-left: -1px;">சுகாதார செயலி</span>
+      <a>
+        <button  routerLink={{rot1}} (click)=vicky()  mat-button class="maara">{{sg}}
+          <img src="../../assets/images/{{img}}" class="sp">
+      </button></a>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
+<mat-sidenav-container style="top: -12px;">
+  <mat-sidenav  mode="side" [opened]="open">
+    <mat-nav-list style="width: 200px;">
+      <a (click)="tsk()">
+        <button style="width: 200px;outline: none;margin-left: -10px;
+        font-size: larger;margin-top: 10px;" 
+        routerLink={{rot2}} mat-button>{{gs}}
+      </button></a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <img src="https://fontmeme.com/permalink/201014/34e51f5af3ee3384d498e1fa3d0b8647.png" alt="tamil"
+    style="margin-top:30px;width:90%;margin-left:100px">
+   <app-vicky-login [style.display]="masss" (vignesh)="Ontsk()"></app-vicky-login>
+   
+    <router-outlet>
+    </router-outlet>
+    <p style="height: 100px;"></p>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--<img src="https://fontmeme.com/permalink/201014/34e51f5af3ee3384d498e1fa3d0b8647.png" alt="tamil"
+    style="margin-top:30px;width:90%;margin-left:100px">-->

@@ -1,0 +1,11 @@
+<form class="vicky" style="margin-top: 20px;" autofocus>
+  <mat-form-field class="masss">
+    <mat-label  class="tsk" style="color:black;font-weight: 390;">User_Name</mat-label><br>
+    <input type="text" [(ngModel)]="User_Name" name="User_Name" style="color:black;font-weight: 800;" matInput placeholder="Vignesh" autocomplete="off" autofocus>
+  </mat-form-field>
+ <mat-form-field class="masss">
+  <mat-label class="tsk" style="color:black;font-weight: 390;">Pass_Word</mat-label><br>
+  <input type="text" style="color:black;font-weight: 800;"  [(ngModel)]="Password" name="Password" matInput placeholder="*********" autocomplete="off">
+</mat-form-field>
+</form>
+<a (click)="Onts()"><button mat-raised-button class="ngk">Login</button></a>

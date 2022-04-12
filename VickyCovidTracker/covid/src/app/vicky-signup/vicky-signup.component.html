@@ -1,0 +1,114 @@
+<form class="vicky1" method="POST" (ngSubmit)="signup()" autocomplete="off" autofocus>
+  <mat-form-field class="masss1">
+    <mat-label class="tsk1">Set_User_Name</mat-label><br>
+    <input type="text"  [(ngModel)]="User_Name" name="User_Name" #name="ngModel" matInput placeholder="Vignesh" autofocus>
+  </mat-form-field>
+  <br><br>
+  <mat-form-field class="masss1">
+    <mat-label class="tsk1">Set_Password</mat-label><br>
+    <input type="text" [(ngModel)]="Password" name="Password" #name="ngModel" matInput placeholder="***********">
+  </mat-form-field>
+  <br><br>
+  <mat-form-field class="masss1" style="width:60%;">
+    <mat-label class="tsk1">Conform_Password</mat-label><br>
+    <input type="text" [(ngModel)]="cpa" name="cpa" #name="ngModel" matInput placeholder="***********">
+  </mat-form-field>
+<mat-form-field class="masss2">
+    <mat-label class="tsk1">First_Name</mat-label><br>
+    <input type="text" [(ngModel)]="First_Name" name="First_Name" matInput placeholder="V.Vignesh">
+  </mat-form-field>
+  <br><br>
+  <mat-form-field class="masss2">
+    <mat-label class="tsk1">Last_Name</mat-label><br>
+    <input type="text" [(ngModel)]="Last_Name" name="Last_Name" matInput placeholder="19MIS0072">
+  </mat-form-field>
+  <br><br>
+  <mat-form-field class="masss2">
+    <mat-label class="tsk1">Phone_Number</mat-label><br>
+    <input type="text" [(ngModel)]="Phone_Number" name="Phone_Number" matInput placeholder="807*****76">
+  </mat-form-field>
+  <mat-form-field appearance="fill" class="masss3">
+    <mat-label>Select State</mat-label>
+    <mat-select [(ngModel)]="Select_State" name="Select_State">
+      <mat-option value="option" selected>Katpadi</mat-option>
+            <mat-option value="option">Gandhi Nagar</mat-option>
+            <mat-option value="option">Sathuvachari</mat-option>
+            <mat-option value="option">Thorapadi</mat-option>
+            <mat-option value="option">Others</mat-option>
+        </mat-select>
+  </mat-form-field>
+    <br><br>
+    <mat-form-field class="masss3">
+      <mat-label class="tsk1">Email</mat-label><br>
+      <input type="text" [(ngModel)]="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" name="email" matInput placeholder="email@gmail.com">
+    </mat-form-field>
+    <br><br>
+    <mat-form-field class="example-full-width masss" class="masss3">
+      <mat-label class="tsk" style="font-size: 23px;">Occupation</mat-label>
+      <input type="text" [(ngModel)]="Occupation" name="Occupation" matInput placeholder="Occupation">
+          </mat-form-field>
+  <button mat-raised-button color="primary" class="petta1">Sign_up</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--<mat-option value="Karnataka">Karnataka</mat-option>
+      <mat-option value="Andra">Andhra</mat-option>
+      <mat-option value="Kerala">Kerala</mat-option>
+      <mat-option value="Others">Others</mat-option>-->

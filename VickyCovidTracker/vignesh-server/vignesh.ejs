@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>V.VIGNESH</title>
+<style>
+        body{
+                background-color: aqua;
+        }
+        table{
+                border: 2px ridge  tomato;
+                padding: 30px;
+                background-color: blanchedalmond;
+                transform: scale(1.1,1.1);
+                box-shadow: brown 9px 9px 5px;
+        }
+        td{
+                padding: 10px;
+                font-weight: 900;
+                font-family: sans-serif;
+        }
+        #sub{
+                outline: none;
+                width: 90px;
+                height: 30px;
+                color:white;
+                background-color:teal;
+                border: none;
+                border-radius: 20px;
+        }
+        #sub:hover{
+                transform: scale(1.2,1.2);
+                background-color: black;
+        }
+</style>
+</head>
+<body>
+        <center>
+        
+        <table>
+                <h2>Vignesh 19MIS0072</h2> <br>
+                       <h1> Basketball scoreboard
+                </h1>
+                <tr>
+                        <td>Team_A Score :</td>
+                        <td><%= team_A %></td>
+                </tr>
+                <tr>
+                        <td>Team_B Score :</td>
+                        <td><%= team_B %></td>
+                </tr>
+                <tr>
+                        <td>Team_C Score :</td>
+                        <td><%= team_C %></td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td><br><a href="/ngk?v=1"><input type="submit" value="Team_A" id="sub"></a></td>
+                        <td><br><a href="/ngk?v=2"><input type="submit" value="Team_B" id="sub"></a></td>
+                        <td><br><a href="/ngk?v=3"><input type="submit" value="Team_C" id="sub"></a></td>
+                </tr>
+        </table>
+        </center>
+</body>
+</html>
